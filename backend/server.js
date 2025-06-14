@@ -468,7 +468,8 @@ app.delete('/api/chats/:id', deleteChat);
 
 
 // Serve frontend files
-const distPath = path.join(__dirname, '../frontend/dist/');
+// const distPath = path.join(__dirname, '../frontend/dist/');
+const distPath = path.join(__dirname, './dist/');
 app.use(express.static(distPath));
 
 // Catch-all route to serve the frontend
