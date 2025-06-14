@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base styles for .main-content */
+.main-content {
+    /* flex: 1; */
+    /* margin-left: 4.8rem; */
+    /* margin-top: 3.7rem; */
+    /* border-left: 0.2rem solid red; */
+    transition: margin-left 0.3s ease; /* Smooth transition */
+    background-color: #F5F6FE;
+    height: 100vh;
+}
+
+/* src/components/NotificationDropdown.css */
+.notification-dropdown {
+    position: absolute;
+    top: 50px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-height: 300px;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+.notification-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.notification-item.read {
+    opacity: 0.6;
+}
+
+.notification-item.unread {
+    font-weight: bold;
+}
+
+.topnav-icon-notifications {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 1536px) {
+    .main-content {
+        /* margin-left: 18.1rem; */
+        /* margin-top: 3.5rem; */
+    }
+}
+
+@media (max-width: 1280px) {
+    .main-content {
+        /* margin-left: 16.6rem; */
+    }
+}
+
+@media (max-width: 1024px) {
+    .main-content {
+        /* margin-left: 14.6rem; */
+        /* margin-top: 2.8rem; */
+    }
+}
+
+@media (max-width: 767px) {
+    .main-content {
+        /* margin-left: 12.8rem; */
+        /* margin-top: 2.6rem; */
+        /* margin-left: 0; */
+    }
+}
+
+@media (max-width: 640px) {
+    .main-content {
+        /* margin-left: 11.6rem;  */
+        /* margin-top: 2.28rem; */
+    }
+}
+
+@media (max-width: 480px) {
+    .main-content {
+        /* margin-left: 10.6rem; */
+        /* margin-top: 2.18rem; */
+    }
+}

@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "AgriTayo",
+    "slug": "mobile",
+    "icon": "./app/assets/logo1.png",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/logo1.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "agritayo.id"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "splash": {
+      "image": "./app/assets/logolabel.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b113c776-95fe-4af2-a523-13d57348c096"
+      }
+    }
+  }
+}

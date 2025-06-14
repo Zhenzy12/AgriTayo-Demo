@@ -1,0 +1,238 @@
+/* Top Navbar Container */
+.topnavbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.25rem;
+    background-color: #eefff4;
+    height: 3.75rem;
+    border-bottom: 0.0625rem solid #00b250;
+    color: #01a149;
+    z-index: 1000;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
+/* Spacer for alignment */
+.topspacer {
+    width: 5rem;
+}
+
+/* Search Bar Container */
+.topnav-search-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+/* General styles for Search Bar */
+.topnav-search-bar {
+    width: 100%;
+    max-width: 50rem;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    border: 0.0625rem solid #00b250;
+    border-radius: 0.25rem;
+    outline: none;
+    box-sizing: border-box;
+}
+
+/* Navigation Links Container */
+.topnav-links {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+/* Individual Nav Items */
+.topnav-item {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #01a149;
+    text-decoration: none;
+    padding: 0.625rem 0.9375rem;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+    position: relative;
+    border-radius: 1.25rem;
+}
+
+/* Nav Icons */
+.topnav-item:hover {
+    background-color: #00b25054;
+}
+
+/* Nav Icons */
+.topnav-icon,
+.topnav-icon-cart {
+    font-size: 1.5rem;
+    color: #00B251;
+    position: relative;
+    border-radius: 1.25rem;
+    margin-right: 0.5rem;
+}
+
+/* Cart Badge */
+.cart-badge {
+    position: absolute;
+    top: -0.125rem;
+    right: -0.125rem;
+    width: auto;
+    min-width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.6875rem;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+/* Nav Text */
+.topnav-text {
+    font-size: 1rem;
+    white-space: nowrap;
+}
+
+/* Responsive styles */
+/* @media (max-width: 1536px) {
+    .topnav-search-bar {
+        max-width: 70%;
+    }
+
+    .topnav-links {
+        gap: 0.9375rem;
+    }
+
+    .topspacer {
+        width: 3.75rem;
+    }
+}
+
+@media (max-width: 1280px) {
+    .topnav-search-bar {
+        max-width: 70%;
+    }
+
+    .topnav-links {
+        gap: 0.9375rem;
+    }
+
+    .topspacer {
+        width: 3.75rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .topnavbar {
+        height: 3.125rem;
+    }
+
+    .topnav-search-bar {
+        max-width: 80%;
+        font-size: 0.875rem;
+        height: 2.1875rem;
+    }
+
+    .topnav-links {
+        gap: 0.625rem;
+    }
+
+    .topspacer {
+        width: 2.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .topnavbar {
+        height: 2.8125rem;
+    }
+
+    .topnav-search-bar {
+        max-width: 70%;
+        font-size: 0.75rem;
+        height: 2.0625rem;
+    }
+
+    .topnav-icon,
+    .topnav-icon-cart {
+        font-size: 1.25rem;
+        border-radius: 1.125rem;
+        margin-right: 0.3125rem;
+    }
+
+    .topnav-links {
+        gap: 0.5rem;
+    }
+
+    .topspacer {
+        width: 1.25rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .topnavbar {
+        height: 2.5rem;
+    }
+
+    .topnav-search-bar {
+        max-width: 70%;
+        font-size: 0.625rem;
+        height: 1.8125rem;
+    }
+
+    .topnav-text {
+        font-size: 0.625rem;
+    }
+
+    .topspacer {
+        width: 1.25rem;
+    }
+
+    .cart-badge {
+        top: -0.25rem;
+        right: -0.25rem;
+        min-width: 1.25rem;
+        height: 1.25rem;
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .topnavbar {
+        height: 2.5rem;
+    }
+
+    .topnav-search-bar {
+        max-width: 70%;
+        font-size: 0.625rem;
+        height: 1.8125rem;
+    }
+
+    .topnav-icon,
+    .topnav-icon-cart {
+        font-size: 1rem;
+    }
+
+    .topnav-text {
+        font-size: 0.625rem;
+    }
+
+    .topspacer {
+        width: 1.25rem;
+    }
+
+    .cart-badge {
+        top: -0.25rem;
+        right: -0.25rem;
+        min-width: 1.25rem;
+        height: 1.25rem;
+        font-size: 0.75rem;
+    }
+} */
